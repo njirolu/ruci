@@ -1,7 +1,7 @@
 {
   "name": "ruci",
-  "version": "1.0.0",
-  "description": "A CLI tool to check i18n JSON files for Angular projects using ngx-translate.",
+  "version": "1.0.1",
+  "description": "Ruci: CLI for Angular i18n validation with ngx-translate.",
   "keywords": [
     "i18n",
     "internationalization",
