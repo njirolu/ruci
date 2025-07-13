@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.png" alt="Ruci Banner" width="480"/>
+  <img src="https://raw.githubusercontent.com/njirolu/ruci/refs/heads/main/assets/banner.png" alt="Ruci Banner" width="480"/>
 </p>
 
 ## Ruci: Empowering Enterprise Angular with Robust ngx-translate Assurance
