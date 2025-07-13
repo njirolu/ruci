@@ -1,0 +1,43 @@
+{
+  "name": "ruci",
+  "version": "1.0.0",
+  "description": "A CLI tool to check i18n JSON files for Angular projects using ngx-translate.",
+  "keywords": [
+    "i18n",
+    "internationalization",
+    "localization",
+    "angular",
+    "ngx-translate",
+    "cli",
+    "validation"
+  ],
+  "license": "MIT",
+  "main": "dist/src/cli/index.js",
+  "type": "module",
+  "bin": {
+    "ruci": "dist/bin/ruci.js"
+  },
+  "scripts": {
+    "build": "bun build ./bin/ruci.ts --outdir ./dist/bin --target=node",
+    "start": "bun dist/bin/ruci.js",
+    "lint": "biome lint .",
+    "format": "biome format . --write",
+    "check": "biome check .",
+    "test": "./scripts/test-all.sh",
+    "test:core": "bun test test/core test/parsers test/reporters test/utils --coverage",
+    "test:cli": "./scripts/test-cli.sh"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.0.6",
+    "@types/bun": "1.2.18",
+    "@types/node": "20.12.12"
+  },
+  "dependencies": {
+    "@angular/compiler": "16",
+    "chalk": "5.4.1",
+    "commander": "14.0.0",
+    "glob": "11.0.3",
+    "ora": "8.2.0",
+    "typescript": "5.8.3"
+  }
+}

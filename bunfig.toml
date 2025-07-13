@@ -1,0 +1,14 @@
+[test]
+# The root directory to scan for test files. Defaults to the project root.
+root = "./test" 
+
+# Enable coverage reporting. Defaults to false.
+# You can also enable this with `bun test --coverage`
+coverage = true
+
+# Specify a coverage threshold. If your test suite does not meet
+# or exceed this threshold, `bun test` will exit with a non-zero exit code.
+# This can be a number (e.g., 0.9 for 90%) or an object for specific metrics.
+# coverageThreshold = 0.9
+# Or:
+coverageThreshold = { lines = 0.85, functions = 0.85, statements = 0.85 }
