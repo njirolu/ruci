@@ -12,6 +12,11 @@
     "validation"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/njirolu/ruci#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/njirolu/ruci"
+  },
   "main": "dist/src/cli/index.js",
   "type": "module",
   "bin": {
@@ -29,15 +34,14 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.0.6",
-    "@types/bun": "1.2.18",
-    "@types/node": "20.12.12"
+    "@types/bun": "1.2.18"
   },
   "dependencies": {
-    "@angular/compiler": "16",
     "chalk": "5.4.1",
     "commander": "14.0.0",
     "glob": "11.0.3",
     "ora": "8.2.0",
-    "typescript": "5.8.3"
+    "typescript": "5.8.3",
+    "@angular/compiler": "16"
   }
 }
